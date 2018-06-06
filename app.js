@@ -127,7 +127,6 @@ function find(){
 	var yLoc;
 
 	while(XFila.length > 0 && !caminhoEncontrado){
-		ciclos++;
 		xLoc = XFila.shift();
 		yLoc = YFila.shift();
 
